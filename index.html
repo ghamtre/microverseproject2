@@ -9,9 +9,32 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <head id="header">
-      <img id="header-img"></img>
-    </head>
+    <h1 id="title">Costumer Experience Survey</h1>
+    <p id="description">Please rate your experience with our product</p>
+
+    <form id="survey-form">
+
+      <label for="name" id="name-label">Your Name</label>
+      <input type="text" id="name" placeholder="Your name">
+
+      <label for="email" id="email-label">Your Email</label>
+      <input type="email" id="email" placeholder="Your email">
+
+      <label for="number" id="number-label">Write a number</label>
+      <input type="number" id="number" min="2" max="3" placeholder="Enter a number">
+
+      <select>
+        <option value="service" id="dropdown">Good service</option>
+        <option value="recommend">I'll recommed to a friend</option>
+        <option value="pass">I'm canceling my subscription</option>
+      </select>
+
+
+      <input type="radio" value="one" id="name">
+      <input type="radio" value="two" id="name">
+      <input type="radio" value="three" id="name">
+
+    </form>
     <!--
 
     Hello Camper!
