@@ -15,25 +15,34 @@
     <form id="survey-form">
 
       <label for="name" id="name-label">Your Name</label>
-      <input type="text" id="name" placeholder="Your name">
+      <input type="text" id="name" placeholder="Your name"><br/>
 
       <label for="email" id="email-label">Your Email</label>
-      <input type="email" id="email" placeholder="Your email">
+      <input type="email" id="email" placeholder="Your email"><br/>
 
       <label for="number" id="number-label">Write a number</label>
       <input type="number" id="number" min="2" max="3" placeholder="Enter a number">
 
+      <br/>
       <select>
         <option value="service" id="dropdown">Good service</option>
         <option value="recommend">I'll recommed to a friend</option>
         <option value="pass">I'm canceling my subscription</option>
       </select>
+      <br/>
 
+      <input type="radio" value="one" id="name"> I didn't have an issue<br/>
+      <input type="radio" value="two" id="name"> Everything is fine<br/>
+      <input type="radio" value="three" id="name"> No problems at all<br/>
 
-      <input type="radio" value="one" id="name">
-      <input type="radio" value="two" id="name">
-      <input type="radio" value="three" id="name">
+      <input type="checkbox" value="four" id="name"> I didn't have an issue<br/>
+      <input type="checkbox" value="five" id="name"> Everything is fine<br/>
+      <input type="checkbox" value="six" id="name"> No problems at all<br/>
 
+      <p>Do you have any recommendations or suggestions?</p>
+      <textarea></textarea>
+      <br/>
+      <button type="submit" id="submit">Submit</button>
     </form>
     <!--
 
